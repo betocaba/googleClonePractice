@@ -184,3 +184,55 @@ footer ul li a {
   margin: 10px;
   color: #5f6368;
 }
+
+@media (max-width: 920px) {
+  main .main-logo {
+    width: 100%;
+  }
+
+  main .main-logo img {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  main .main-input {
+    width: 100%;
+  }
+
+  main .main-input-container {
+    width: 85%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  main .main-input input {
+    width: 90%;
+  }
+  main .main-buttons {
+    width: 100%;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  footer .footer-right,
+  footer .footer-left {
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 730px) {
+  footer {
+    height: auto;
+    padding-bottom: 10px;
+  }
+  main {
+    height: 80vh;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+}
